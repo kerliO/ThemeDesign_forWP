@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--FontAwsaome registreeringu kood-->
+    <script src="https://kit.fontawesome.com/235991abfd.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!--Lingime CSS faili -->
+    <link rel="stylesheet" href="style.css">
+    <title>EditMi ThemeWP</title>
+</head>
+
+<body>
+<!--Mobiili menyy-->
+<div id="slideout-menu">
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="blogslist.html">Blog</a>
+        </li>
+        <li>
+            <a href="blogslist.html">Projects</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <input type="text" placeholder="Search Here...">
+            <!--<br>-->
+            <!--<a href="#">-->
+                <!--<i class="fas fa-search"></i>-->
+            <!--</a>-->
+        </li>
+    </ul>
+</div>
+
+<!--NAVIGATSIOONIRIBA ALGAB-->
+<nav>
+    <!--Menüü - LOGO - lingib esilehele-->
+    <div id="logo-img">
+
+        <a href="#">
+            <img src="img/logo.png" alt="EditMi Logo">
+        </a>
+    </div>
+
+    <!--Menu / Loome id BURGER MENYY ikoonile-->
+
+    <div id="menu-icon">
+        <!--Kasutame fontawsom menyy ikooni-->
+        <!--loome klassi menyy ikoonidele-->
+        <i class="fas fa-bars"></i>
+    </div>
+    <!--MENYYNUPUD-->
+    <ul>
+        <li>
+            <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="blogslist.html">Blog</a>
+        </li>
+        <li>
+            <a href="blogslist.html">Projects</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <!--Luup otsimiseks-->
+        <li>
+            <div id="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </li>
+    </ul>
+    <!--NAVIGATSIOONIRIBA Lo^PP-->
+</nav>
+
+
+<!--Otsingubox, mis ilmub, kui vajutas luubile / ilmub menyy alla-->
+    <div id="searchbox">
+        <input type="text" placeholder="Search ...">
+    </div>
+
+
+
+<!--BANNER-->
+<div id="banner">
+    <h1> Surf Club Theme</h1>
+    <!--<h3>MoreText_H3</h3>-->
+</div>
+
+
+
+<!--MAIN LEHT-->
+<main>
+    <!--Koosneb  I, II  SELECTIONIST            / <section>
+                                - pealkiri H2   / calss = "selection-heading"
+                  card tyypi    ISENDID  (3tk)  / class="card"
+                                - img           / class="card-image"
+                                - pealkiri H3   / class="card-description"
+                                - kirjeldus     / class="card-description"
+                                - nupp          / class="btn-readmore"
+
+               ja  III  SELECTIONIST            / <section id="section-source">
+
+     -->
+
+    <!-- SELECTION I pealkiri-->
+    <a href="blogslist.html">
+        <h2 class="section-heading">All Blogs</h2>
+    </a>
+    <!-- SELECTION I -->
+    <section>
+        <!-- kaart 1-->
+        <div class="card">
+            <!--PILT-->
+            <div class="card-image">
+                <a href="blogpost.html">
+                    <img src="img/jeremy-bishop-pikyGuAmwpM-unsplash.jpg" alt="Card Image">
+                </a>
+            </div>
+            <!--PEALKIRI-->
+            <div class="card-description">
+                <a href="blogpost.html">
+                    <h3>The Blog Title Here</h3>
+                </a>
+                <!--KIRJELDUS-->
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+                    cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+                </p>
+                <!--NUPP-->
+                <a href="blogpost.html" class="btn-readmore">Read more</a>
+            </div>
+        </div>
+
+        <!-- kaart 2-->
+        <div class="card">
+            <div class="card-image">
+                <a href="blogpost.html">
+                    <img src="img/abigail-lynn-VAggpKuA2zU-unsplash.jpg" alt="Card Image">
+                </a>
+            </div>
+
+            <div class="card-description">
+                <a href="blogpost.html">
+                    <h3>The Blog Title Here</h3>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+                    cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+                </p>
+                <!--NUPP-->
+                <a href="blogpost.html" class="btn-readmore">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SELECTION II pealkiri-->
+    <a href="blogslist.html">
+        <h2 class="section-heading">All Projects</h2>
+    </a>
+    <!-- SELECTION II -->
+    <section>
+        <!--Kaart 3-->
+        <div class="card">
+            <!--PILT-->
+            <div class="card-image">
+                <a href="blogpost.html">
+                    <img src="img/joey-pilgrim-I3AMPLzJjW8-unsplash.jpg" alt="Card Image">
+                </a>
+            </div>
+            <!--PEALKIRI-->
+            <div class="card-description">
+                <a href="blogpost.html">
+                    <h3>The Project Title Here</h3>
+                </a>
+                <!--KIRJELDUS-->
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+                    cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+                </p>
+                <!--NUPP-->
+                <a href="blogpost.html" class="btn-readmore">Read more</a>
+            </div>
+        </div>
+        <!--Kaart 4-->
+        <div class="card">
+            <!--PILT-->
+            <div class="card-image">
+                <a href="blogpost.html">
+                    <img src="img/ross-sokolovski-YKQawNUINXA-unsplash.jpg" alt="Card Image">
+                </a>
+            </div>
+            <!--PEALKIRI-->
+            <div class="card-description">
+                <a href="blogpost.html">
+                    <h3>The Project Title Here</h3>
+                </a>
+                <!--KIRJELDUS-->
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+                    cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+                </p>
+                <!--NUPP-->
+                <a href="blogpost.html" class="btn-readmore">Read more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SELECTION III pealkiri-->
+    <h2 class="section-heading">Source Code</h2>
+    <!-- SELECTION III-->
+    <section id="section-source">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum neque qui delectus ad dolor blanditiis perferendis praesentium
+            consectetur aut sed provident obcaecati aspernatur perspiciatis, dolores nobis pariatur ipsum vel corrupti!
+        </p>
+        <a href="#" class="btn-readmore">GitHub Profile</a>
+    </section>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="blogslist.html">Blogs</a>
+                </li>
+                <li>
+                    <a href="blogslist.html">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>This website is developed by EditMi</p>
+        </div>
+    </footer>
+</main>
+
+<script src="main.js"></script>
+</body>
+
+</html>
