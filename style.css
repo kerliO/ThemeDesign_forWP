@@ -4,7 +4,7 @@ body {
     background-image: url("img/ylemine.png");
     background-size: 100%;
     background-repeat: no-repeat;
-
+    /*max-width: 1500px;*/
 }
 
 h1 {
@@ -21,7 +21,7 @@ p {
 
 main {
     margin: 0 auto;
-
+    max-width: 1500px;
 }
 
 a {
@@ -59,13 +59,11 @@ textarea:focus {
     margin-right: 30%;
     justify-content: flex-end;
     flex-direction: column;
-    /*background: ##60d2e5  url("img/laud.png");*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-blend-mode: overlay;
-    /*padding-left: 5%;*/
     color: #191a1e;
 }
 
@@ -132,7 +130,6 @@ nav ul {
     align-items: center;
     height: 100%;
     margin: 0;
-
 }
 
 .active {
@@ -142,7 +139,6 @@ nav ul {
 #logo-img {
     display: flex;
     height: 100%;
-    /*background: #1f2125;*/
     padding: 0 32px;
     align-items: center;
     color: white;
@@ -154,7 +150,6 @@ nav ul {
 }
 
 #logo-img:hover {
-    /*background: black;*/
     height: 60px;
     padding-top: 10px;
 }
@@ -233,12 +228,10 @@ section {
     font-size: 32px;
     font-family: 'Quicksand', sans-serif;
     border-left: 4px solid black;
-    /*border-right: 3px solid black;*/
     transition: all 0.4s;
     display: inline-block;
     padding: 0px 32px;
     margin-left: 32px;
-
 }
 
 .section-heading:hover {
@@ -298,18 +291,15 @@ section {
     background: url("img/laud.png");
     background-size: 205%;
     background-position: center;
-    /*background: white;*/
 }
 
 .btn-readmore:hover {
-    /*background: #1f2125;*/
     background: url("img/laudSinine.png");
     background-size: 200%;
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
     padding: 14px 44px 14px 44px;
-    /*margin-left: 10px;*/
     color: black;
 }
 
@@ -333,7 +323,7 @@ footer a {
 
 footer #left-footer {
     flex: 1;
-    padding-left: 45px;
+    padding-left: 75px;
 }
 
 footer #left-footer ul {
@@ -367,7 +357,6 @@ footer #social-media-footer ul li {
     font-size: 38px;
     padding: 16px;
     transition: 0.4s;
-
 }
 
 footer #social-media-footer ul li:hover a .fas-youtube {
@@ -429,9 +418,11 @@ footer #social-media-footer ul li:hover a .fas-github {
     text-decoration: none;
     border-bottom:3px solid skyblue;
 }
+
 a.prev{
      border-left:3px solid skyblue;
- }
+}
+
 a.next{
     border-right: 3px solid skyblue;
 }
@@ -441,6 +432,7 @@ a.prev:hover{
 a.next:hover{
     border-right: transparent;
 }
+
 /* Single Blogpost */
 
 #post-container{
@@ -450,8 +442,7 @@ a.next:hover{
 #blogpost{
     display: flex;
     flex-direction:column;
-    width:75%;
-    /*border-left:1px solid #999;*/
+    width:75%
 }
 
 #blogpost .card{
@@ -468,7 +459,6 @@ a.next:hover{
 /* Sidebar */
 
 #sidebar{
-    /*background:#333;*/
     flex:1;
     border-radius: 0 50px 20px 5px;
     padding: 8px 16px;
@@ -521,7 +511,8 @@ a.next:hover{
     footer #social-media-footer a .fa-facebook,
     footer #social-media-footer a .fa-youtube,
     footer #social-media-footer a .fa-github {
-        color: #FFFFFF;
+        /*color: #FFFFFF;*/
+        color: rgba(226, 226, 226, 0.42);
         transition: 0.4s;
     }
 }
@@ -569,8 +560,6 @@ a.next:hover{
     footer #right-footer {
         flex: 1;
         background: linear-gradient(120deg, #1f2125, #1f2125 200px);
-        /*background: linear-gradient(white, #3b5998);*/
-        /*background: radial-gradient(white, cadetblue);*/
         color: #60d2e5;
         border-radius: 120px 0 0 0;
     }
@@ -611,9 +600,11 @@ a.next:hover{
     #logo-img {
         padding: 0;
     }
+
     #section-source  a{
         background-size: 65%;
     }
+
     #section-source  a:hover{
         background-size: 75%;
     }
@@ -625,6 +616,7 @@ a.next:hover{
         padding-left: 5px;
         border-radius: 0px 0px 0px 0px;
     }
+
 }
 
 @media (min-width: 720px) {
@@ -637,13 +629,11 @@ a.next:hover{
     .card .card-image img {
         width: 100%;
     }
-
 }
 
 @media (min-width: 1200px) {
     main {
         width: 90%;
     }
-
 
 }
